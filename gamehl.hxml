@@ -1,0 +1,10 @@
+-lib heaps
+-lib castle
+-lib hlsdl
+-cp src
+-hl game.hl
+-main Game
+-D windowSize=832x832
+-dce full
+-D release
+# -debug

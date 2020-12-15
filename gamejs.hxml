@@ -1,0 +1,9 @@
+-lib heaps
+-lib castle
+-cp src
+-js index.js
+-main Game
+-D windowSize=832x832
+-dce full
+-D release
+# -debug

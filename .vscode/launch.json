@@ -1,0 +1,30 @@
+{
+	// Utilisez IntelliSense pour en savoir plus sur les attributs possibles.
+	// Pointez pour afficher la description des attributs existants.
+	// Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "hl",
+			"request": "launch",
+			"name": "HashLink",
+			"cwd": "${workspaceFolder}",
+			"preLaunchTask": "Build",
+		},
+		{
+			"type": "firefox",
+			"request": "launch",
+			"name": "Firefox-localhost",
+			"url": "file://${workspaceFolder}/ld40.html",
+			"webRoot": "${workspaceFolder}",
+			// "hxml": "gamejs.hxml",
+			"preLaunchTask": {
+				"type" : "haxe",
+				// "args" : "active configuration"
+				"args" : "active configuration"
+			},
+			"firefoxExecutable": "/opt/firefox_dev/firefox"
+		},
+		
+	]
+}
