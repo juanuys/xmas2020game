@@ -15,3 +15,7 @@ Then open `index.html` in your browser
 # Inspiration
 
 Based on [ncannasse's ld40](https://github.com/ncannasse/ld40).
+
+# Screenshot
+
+![screenshot](art_sfx/gimp/santa-saunter.png)
